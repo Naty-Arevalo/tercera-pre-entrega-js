@@ -48,7 +48,6 @@ body{
 
 .shop-content{
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -59,7 +58,7 @@ body{
     padding-bottom: 20px;
 }
 .card{
-    /* box-shadow: ; */
+
     width: 200px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -134,15 +133,25 @@ body{
     font-size: 20px;
 }
 .modal-header-title{
-    /* justify-self: start; */
     padding: 10px;
     text-align: center;
+}
+.modal-papelera{
+    border:solid white;
+    margin: 0%;
+    text-align: end;
+    color: black;
+    background-color: white;
+    border-radius: 20%;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .modal-header-button{
     padding: 10px;
     font-weight: 900;
     font-size: 20px;
     margin: 10px;
+    cursor: pointer;
 }
 .modal-container > .modal-content{
     display: flex;
@@ -163,13 +172,12 @@ body{
     padding-top: 20px;
 }
 
-/*delete button product*/
+
 .delete-product{
     cursor: pointer;
-    font-size: 40px;
+    font-size: 20px;
     padding: 5px;
-    color: red;
-
+    
 }
 .desc-visual{
     border-bottom: 10px;
